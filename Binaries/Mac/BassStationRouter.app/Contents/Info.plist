@@ -523,7 +523,7 @@
 		</dict>
 	</array>
 	<key>CFBundleExecutable</key>
-	<string>Bass Station.amxd</string>
+	<string>BassStationRouter</string>
 	<key>CFBundleGetInfoString</key>
 	<string>6.1.7, Copyright 2012 Cycling '74</string>
 	<key>CFBundleIconFile</key>
