@@ -7,6 +7,9 @@ Max for Live UI by Joe Mattiello
 Embedded original Bass Station 2 Max patch by Justin Foster 
 http://cycling74.com/project/bass-station-ii-patch-editor/
 
+![alt tag](https://raw.githubusercontent.com/JoeMatt/BassStationIIMaxForLive/master/Media/BS2Screenshot.png)
+
+
 # Usage
 1. Open BassStation2Router. This is necessary for getting SYSEX data to/from Ableton Live
 2. Open the Max for Live patch
