@@ -21,3 +21,9 @@ http://cycling74.com/project/bass-station-ii-patch-editor/
 # Bugs / Unsupported
 1. Not two way communitication. Parameter edits or patch changes made from the Bass Station 2 will not update the patch UI. Use "Patch Capture" to read the new values.
 2. Some automation parameter title are incorrect
+
+# TODO
+* Patch Banks
+* Load SYSEX patch
+* Receice live CC updates back from BS2
+* Fix automation paramter titles
