@@ -18,15 +18,15 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleLongVersionString</key>
-	<string>sqlite 6.1.7 (build 6dce307), Copyright 2012 Cycling '74</string>
+	<string>sqlite 6.1.8 (build 9fafea6), Copyright 2012 Cycling '74</string>
 	<key>CFBundlePackageType</key>
 	<string>iLaX</string>
 	<key>CFBundleShortVersionString</key>
-	<string>6.1.7 (6dce307)</string>
+	<string>6.1.8 (9fafea6)</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>6.1.7</string>
+	<string>6.1.8</string>
 	<key>CSResourcesFileMapped</key>
 	<true/>
 	<key>DTCompiler</key>
