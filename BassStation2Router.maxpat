@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
@@ -30,6 +30,95 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"frgb" : 0.0,
+					"id" : "obj-21",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 326.0, 248.0, 163.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 35.901566, 96.25, 124.0, 22.0 ],
+					"text" : "Send CC  to Live",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"checkedcolor" : [ 0.0, 0.568627, 0.831373, 1.0 ],
+					"id" : "obj-18",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 8.0, 146.0, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 7.0, 97.25, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 23.0, 171.0, 34.0, 20.0 ],
+					"text" : "gate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-131",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 338.0, 337.0, 165.0, 18.0 ],
+					"text" : "240 0 32 41 0 51 0 64 247"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-16",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 614.0, 101.0, 32.5, 18.0 ],
+					"text" : "1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 620.0, 65.0, 60.0, 20.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"blinkcolor" : [ 0.831373, 0.391328, 0.01134, 1.0 ],
 					"id" : "obj-5",
@@ -38,7 +127,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"outlinecolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"patching_rect" : [ 459.0, 216.0, 20.0, 20.0 ],
+					"patching_rect" : [ 546.0, 237.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 192.0, 35.0, 25.0, 25.0 ]
 				}
@@ -53,21 +142,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 459.0, 191.0, 34.0, 20.0 ],
+					"patching_rect" : [ 546.0, 212.0, 34.0, 20.0 ],
 					"text" : "gate"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-14",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 87.0, 173.0, 151.0, 18.0 ]
 				}
 
 			}
@@ -82,19 +158,6 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 87.0, 126.0, 51.0, 20.0 ],
 					"text" : "sysexin"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-12",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 161.0, 50.0, 18.0 ]
 				}
 
 			}
@@ -129,7 +192,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -478,7 +541,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -865,7 +928,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.595187,
 					"id" : "obj-4",
-					"items" : [ "IAC Driver IAC Bus 1", ",", "IAC Driver IAC Bus 2", ",", "IAC Driver IAC Bus 3", ",", "IAC Driver IAC Bus 4", ",", "TC Near TC Near Port 1", ",", "Audio 8 DJ MIDI input port 0", ",", "Traktor Kontrol X1 - 1 MIDI input port 0", ",", "Maschine Controller MIDI input port 0", ",", "Ableton Push Live Port", ",", "Ableton Push User Port", ",", "Korg Monotribe", ",", "Bass Station II", ",", "Six Trak", ",", "EX800", ",", "Kiwi 106", ",", "MIDI Express XT #2 Port 4", ",", "MIDI Express XT #2 Port 5", ",", "MIDI Express XT #2 Port 6", ",", "MIDI Express XT #2 Port 7", ",", "MIDI Express XT #2 Port 8", ",", "MIDI Express XT #2 Sync Port", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "Maschine Controller Virtual Input", ",", "Daemon Input 0", ",", "Daemon Input 1", ",", "Daemon Input 2", ",", "Daemon Input 3", ",", "Daemon Input 4", ",", "Daemon Input 5", ",", "Daemon Input 6", ",", "Daemon Input 7", ",", "Traktor Kontrol F1 - 1 Input", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "USB Midi        ", ",", "USB MIDI Dark Energy  ", ",", "Maschine Controller MIDI input port 0", ",", "Audio 8 DJ MIDI input port 0", ",", "Traktor Kontrol X1 - 1 MIDI input port 0", ",", "Bass Station II", ",", "TC Near TC Near Port 1", ",", "MIDI Express XT #6 Port 1", ",", "MIDI Express XT #6 Port 2", ",", "MIDI Express XT #6 Port 3", ",", "MIDI Express XT #6 Port 4", ",", "MIDI Express XT #6 Port 5", ",", "MIDI Express XT #6 Port 6", ",", "MIDI Express XT #6 Port 7", ",", "MIDI Express XT #6 Port 8", ",", "MIDI Express XT #6 Sync Port", ",", "MiniBrute", ",", "MiniBrute MIDI Interface", ",", "Moog Minitaur", ",", "Ableton Push Live Port", ",", "Ableton Push User Port", ",", "Arturia BeatStep", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "Daemon Input 0", ",", "Daemon Input 1", ",", "Daemon Input 2", ",", "Daemon Input 3", ",", "Daemon Input 4", ",", "Daemon Input 5", ",", "Daemon Input 6", ",", "Daemon Input 7", ",", "Traktor Kontrol F1 - 1 Input", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -888,12 +951,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 224.0, 212.0, 183.0, 24.0 ],
+					"patching_rect" : [ 311.0, 233.0, 183.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 95.75, 177.0, 24.0 ],
+					"presentation_rect" : [ 227.803131, 95.25, 99.0, 24.0 ],
 					"text" : "view activity",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textjustification" : 2
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -907,7 +969,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"outlinecolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"patching_rect" : [ 408.0, 216.0, 20.0, 20.0 ],
+					"patching_rect" : [ 495.0, 237.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 192.0, 62.0, 25.0, 25.0 ]
 				}
@@ -922,9 +984,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 408.0, 161.0, 20.0, 20.0 ],
+					"patching_rect" : [ 495.0, 126.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 194.5, 97.75, 20.0, 20.0 ]
+					"presentation_rect" : [ 194.5, 97.25, 20.0, 20.0 ]
 				}
 
 			}
@@ -937,7 +999,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 408.0, 191.0, 34.0, 20.0 ],
+					"patching_rect" : [ 495.0, 212.0, 34.0, 20.0 ],
 					"text" : "gate"
 				}
 
@@ -970,7 +1032,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 294.0, 315.0, 43.0, 18.0 ],
+					"patching_rect" : [ 248.0, 405.0, 43.0, 18.0 ],
 					"text" : "midiout"
 				}
 
@@ -983,7 +1045,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.595187,
 					"id" : "obj-19",
-					"items" : [ "AU DLS Synth 1", ",", "IAC Driver IAC Bus 1", ",", "IAC Driver IAC Bus 2", ",", "IAC Driver IAC Bus 3", ",", "IAC Driver IAC Bus 4", ",", "TC Near TC Near Port 1", ",", "Audio 8 DJ MIDI output port 0", ",", "Traktor Kontrol X1 - 1 MIDI output port 0", ",", "Maschine Controller MIDI output port 0", ",", "Ableton Push Live Port", ",", "Ableton Push User Port", ",", "Korg Monotribe", ",", "Bass Station II", ",", "Six Trak", ",", "EX800", ",", "Kiwi 106", ",", "Meeblip SE", ",", "Meeblip Anode", ",", "MIDI Express XT #2 Port 6", ",", "MIDI Express XT #2 Port 7", ",", "MIDI Express XT #2 Port 8", ",", "MIDI Express XT #2 All Cables", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "Maschine Controller Virtual Output", ",", "Daemon Output 0", ",", "Daemon Output 1", ",", "Daemon Output 2", ",", "Daemon Output 3", ",", "Daemon Output 4", ",", "Daemon Output 5", ",", "Daemon Output 6", ",", "Daemon Output 7", ",", "Traktor Kontrol F1 - 1 Output", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "USB Midi        ", ",", "USB MIDI Dark Energy  ", ",", "Maschine Controller MIDI output port 0", ",", "Audio 8 DJ MIDI output port 0", ",", "Traktor Kontrol X1 - 1 MIDI output port 0", ",", "Bass Station II", ",", "TC Near TC Near Port 1", ",", "MIDI Express XT #6 Port 1", ",", "MIDI Express XT #6 Port 2", ",", "MIDI Express XT #6 Port 3", ",", "MIDI Express XT #6 Port 4", ",", "MIDI Express XT #6 Port 5", ",", "MIDI Express XT #6 Port 6", ",", "MIDI Express XT #6 Port 7", ",", "MIDI Express XT #6 Port 8", ",", "MIDI Express XT #6 All Cables", ",", "MiniBrute", ",", "MiniBrute MIDI Interface", ",", "Moog Minitaur", ",", "Ableton Push Live Port", ",", "Ableton Push User Port", ",", "Arturia BeatStep", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "Daemon Output 0", ",", "Daemon Output 1", ",", "Daemon Output 2", ",", "Daemon Output 3", ",", "Daemon Output 4", ",", "Daemon Output 5", ",", "Daemon Output 6", ",", "Daemon Output 7", ",", "Traktor Kontrol F1 - 1 Output", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1014,11 +1076,9 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"color" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
-					"hidden" : 1,
-					"midpoints" : [ 347.5, 103.0, 303.5, 103.0 ],
+					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -1034,10 +1094,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 1 ],
+					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-13", 0 ]
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}
@@ -1061,10 +1121,46 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-131", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-18", 0 ]
 				}
 
 			}
@@ -1116,7 +1212,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 1 ],
+					"destination" : [ "obj-15", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-7", 0 ]
@@ -1125,7 +1221,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 1 ],
+					"destination" : [ "obj-17", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-7", 0 ]
