@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"openrect" : [ -814.0, 156.0, 322.0, 129.0 ],
+		"openrect" : [ 2344.0, 5.0, 321.0, 128.0 ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -29,6 +29,121 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-22",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 6,
+							"minor" : 1,
+							"revision" : 8,
+							"architecture" : "x86"
+						}
+,
+						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 0,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"boxanimatetime" : 200,
+						"imprint" : 0,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-82",
+									"linecount" : 3,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 100.0, 709.0, 47.0 ],
+									"text" : "match 240 0 32 41 0 51 nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn nn 247"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-14",
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-20",
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 50.0, 207.0, 25.0, 25.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-82", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-82", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 87.0, 162.0, 91.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p match_sysex"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : "Arial",
@@ -928,7 +1043,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.595187,
 					"id" : "obj-4",
-					"items" : [ "USB Midi        ", ",", "USB MIDI Dark Energy  ", ",", "Maschine Controller MIDI input port 0", ",", "Audio 8 DJ MIDI input port 0", ",", "Traktor Kontrol X1 - 1 MIDI input port 0", ",", "Bass Station II", ",", "TC Near TC Near Port 1", ",", "MIDI Express XT #6 Port 1", ",", "MIDI Express XT #6 Port 2", ",", "MIDI Express XT #6 Port 3", ",", "MIDI Express XT #6 Port 4", ",", "MIDI Express XT #6 Port 5", ",", "MIDI Express XT #6 Port 6", ",", "MIDI Express XT #6 Port 7", ",", "MIDI Express XT #6 Port 8", ",", "MIDI Express XT #6 Sync Port", ",", "MiniBrute", ",", "MiniBrute MIDI Interface", ",", "Moog Minitaur", ",", "Ableton Push Live Port", ",", "Ableton Push User Port", ",", "Arturia BeatStep", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "Daemon Input 0", ",", "Daemon Input 1", ",", "Daemon Input 2", ",", "Daemon Input 3", ",", "Daemon Input 4", ",", "Daemon Input 5", ",", "Daemon Input 6", ",", "Daemon Input 7", ",", "Traktor Kontrol F1 - 1 Input", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "USB Midi        ", ",", "USB MIDI Dark Energy  ", ",", "Maschine Controller MIDI input port 0", ",", "Audio 8 DJ MIDI input port 0", ",", "Traktor Kontrol X1 - 1 MIDI input port 0", ",", "Bass Station II", ",", "TC Near TC Near Port 1", ",", "MIDI Express XT #8 Port 1", ",", "MIDI Express XT #8 Port 2", ",", "MIDI Express XT #8 Port 3", ",", "MIDI Express XT #8 Port 4", ",", "MIDI Express XT #8 Port 5", ",", "MIDI Express XT #8 Port 6", ",", "MIDI Express XT #8 Port 7", ",", "MIDI Express XT #8 Port 8", ",", "MIDI Express XT #8 Sync Port", ",", "Maschine Controller MIDI input port 0", ",", "Traktor Kontrol X1 - 1 MIDI input port 0", ",", "Maschine Controller Virtual Input", ",", "Traktor Kontrol F1 - 1 Input", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1045,7 +1160,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.595187,
 					"id" : "obj-19",
-					"items" : [ "AU DLS Synth 1", ",", "USB Midi        ", ",", "USB MIDI Dark Energy  ", ",", "Maschine Controller MIDI output port 0", ",", "Audio 8 DJ MIDI output port 0", ",", "Traktor Kontrol X1 - 1 MIDI output port 0", ",", "Bass Station II", ",", "TC Near TC Near Port 1", ",", "MIDI Express XT #6 Port 1", ",", "MIDI Express XT #6 Port 2", ",", "MIDI Express XT #6 Port 3", ",", "MIDI Express XT #6 Port 4", ",", "MIDI Express XT #6 Port 5", ",", "MIDI Express XT #6 Port 6", ",", "MIDI Express XT #6 Port 7", ",", "MIDI Express XT #6 Port 8", ",", "MIDI Express XT #6 All Cables", ",", "MiniBrute", ",", "MiniBrute MIDI Interface", ",", "Moog Minitaur", ",", "Ableton Push Live Port", ",", "Ableton Push User Port", ",", "Arturia BeatStep", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "Daemon Output 0", ",", "Daemon Output 1", ",", "Daemon Output 2", ",", "Daemon Output 3", ",", "Daemon Output 4", ",", "Daemon Output 5", ",", "Daemon Output 6", ",", "Daemon Output 7", ",", "Traktor Kontrol F1 - 1 Output", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "USB Midi        ", ",", "USB MIDI Dark Energy  ", ",", "Maschine Controller MIDI output port 0", ",", "Audio 8 DJ MIDI output port 0", ",", "Traktor Kontrol X1 - 1 MIDI output port 0", ",", "Bass Station II", ",", "TC Near TC Near Port 1", ",", "MIDI Express XT #8 Port 1", ",", "MIDI Express XT #8 Port 2", ",", "MIDI Express XT #8 Port 3", ",", "MIDI Express XT #8 Port 4", ",", "MIDI Express XT #8 Port 5", ",", "MIDI Express XT #8 Port 6", ",", "MIDI Express XT #8 Port 7", ",", "MIDI Express XT #8 Port 8", ",", "MIDI Express XT #8 All Cables", ",", "Maschine Controller MIDI output port 0", ",", "Traktor Kontrol X1 - 1 MIDI output port 0", ",", "Maschine Controller Virtual Output", ",", "Traktor Kontrol F1 - 1 Output", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1112,7 +1227,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
+					"destination" : [ "obj-22", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-13", 0 ]
@@ -1134,6 +1249,15 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -1171,6 +1295,15 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-19", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-22", 0 ]
 				}
 
 			}
@@ -1256,7 +1389,11 @@
 
 			}
  ],
-		"dependency_cache" : [  ]
+		"dependency_cache" : [ 			{
+				"name" : "midiinfo.mxo",
+				"type" : "iLaX"
+			}
+ ]
 	}
 
 }
