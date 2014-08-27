@@ -29,21 +29,33 @@ http://cycling74.com/project/bass-station-ii-patch-editor/
 
 # TODO
 * Patch Banks
-* Load SYSEX patch drag & drop
 * Capture incoming patches to SYSEX files
 * Fix all automation paramter titles
 * Radomize parameter lock
 
 # Log
 
+V 1.2
+Added
+
+1. Sysex file import support
+2. Quick link to Novation patch site
+
+Fixes
+
+1. A couple automation paremeters were named more clearly
+
+
 V 1.1
 Added
+
 1. Incoming CC data updates the UI
 2. Random Feature
 3. CC from Live or helper router
 4. Fullscreen popup editor
 
 Fixes
+
 1. More reliable router app
 2. UI layout tweaks
 3. Automation fixes for some parameters
