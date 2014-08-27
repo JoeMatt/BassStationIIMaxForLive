@@ -33,7 +33,7 @@ http://cycling74.com/project/bass-station-ii-patch-editor/
 * Capture incoming patches to SYSEX files
 * Fix all automation paramter titles
 * Radomize parameter lock
-* 
+
 # Log
 
 V 1.1
