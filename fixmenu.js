@@ -3,10 +3,10 @@
 inlets  = 1;
 outlets = 1;
 
-var items;
+var items = [];
+var timeout = null;
 
 function list (value) {
-	
 	if(arguments.length > 1) {
 		outlet(0, arguments);
 	}	
@@ -18,15 +18,13 @@ function clear() {
 }
 
 function cancelTimer() {
-if (timeout !== null) {
+	if (timeout !== null) {
 		timeout.cancel();
 		timeout = null;		
-	};
+	}
 }
 
-var timeout;
 function append(value) {
-
 		// cancel previous call if still around
 	cancelTimer();
 
