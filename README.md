@@ -28,8 +28,8 @@ http://cycling74.com/project/bass-station-ii-patch-editor/
 
 
 # TODO
-* Patch Banks
-* Capture incoming patches to SYSEX files
+* Patch names ala new BS2 firmware SYSEX format
+* Capture incoming patches to SYSEX files (might not be possible)
 * Fix all automation paramter titles
 * Radomize parameter lock
 
