@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 8,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
 		"openrect" : [ 2344.0, 5.0, 321.0, 128.0 ],
@@ -32,6 +32,230 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-247",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 592.0, 480.0, 57.0, 20.0 ],
+					"text" : "sxformat"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-245",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 477.0, 558.0, 36.0, 18.0 ],
+					"text" : "write"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-242",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 364.0, 468.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-238",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 364.0, 504.0, 45.0, 18.0 ],
+					"text" : "record"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-234",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "bang" ],
+					"patching_rect" : [ 246.0, 542.0, 84.0, 20.0 ],
+					"text" : "seq patch.syx"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-228",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 86.0, 438.0, 27.0, 20.0 ],
+					"text" : "iter"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-227",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 198.0, 624.0, 50.0, 18.0 ],
+					"text" : "247"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-196",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 87.0, 557.0, 73.0, 20.0 ],
+					"text" : "fromsymbol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-165",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 482.0, 741.0, 34.0, 20.0 ],
+					"text" : "print"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-163",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "bang", "int" ],
+					"patching_rect" : [ 357.0, 777.0, 46.0, 20.0 ],
+					"text" : "text"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-117",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 437.0, 651.0, 37.0, 18.0 ],
+					"text" : "clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-108",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 34.5, 522.0, 36.0, 18.0 ],
+					"text" : "write"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-106",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 8.0, 568.0, 37.0, 18.0 ],
+					"text" : "clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-98",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 511.0, 651.0, 36.0, 18.0 ],
+					"text" : "write"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-93",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "bang", "int" ],
+					"patching_rect" : [ 255.0, 687.0, 46.0, 20.0 ],
+					"text" : "text"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-28",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 39.0, 605.0, 59.5, 20.0 ],
+					"saved_object_attributes" : 					{
+						"embed" : 0
+					}
+,
+					"text" : "coll"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-22",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -43,10 +267,10 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -308,7 +532,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 666.0, 225.0, 375.0, 429.0 ],
@@ -657,7 +881,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 8,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 925.0, 120.0, 375.0, 429.0 ],
@@ -1043,7 +1267,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.595187,
 					"id" : "obj-4",
-					"items" : [ "USB Midi        ", ",", "USB MIDI Dark Energy  ", ",", "Maschine Controller MIDI input port 0", ",", "Audio 8 DJ MIDI input port 0", ",", "Traktor Kontrol X1 - 1 MIDI input port 0", ",", "Bass Station II", ",", "TC Near TC Near Port 1", ",", "MIDI Express XT #8 Port 1", ",", "MIDI Express XT #8 Port 2", ",", "MIDI Express XT #8 Port 3", ",", "MIDI Express XT #8 Port 4", ",", "MIDI Express XT #8 Port 5", ",", "MIDI Express XT #8 Port 6", ",", "MIDI Express XT #8 Port 7", ",", "MIDI Express XT #8 Port 8", ",", "MIDI Express XT #8 Sync Port", ",", "Maschine Controller MIDI input port 0", ",", "Traktor Kontrol X1 - 1 MIDI input port 0", ",", "Maschine Controller Virtual Input", ",", "Traktor Kontrol F1 - 1 Input", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "USB Midi        ", ",", "USB MIDI Dark Energy  ", ",", "Maschine Controller MIDI input port 0", ",", "Traktor Kontrol X1 - 1 MIDI input port 0", ",", "Bass Station II", ",", "MiniBrute", ",", "MiniBrute MIDI Interface", ",", "Moog Minitaur", ",", "Ableton Push Live Port", ",", "Ableton Push User Port", ",", "MIDI Express XT #12 Port 1", ",", "MIDI Express XT #12 Port 2", ",", "MIDI Express XT #12 Port 3", ",", "MIDI Express XT #12 Port 4", ",", "MIDI Express XT #12 Port 5", ",", "MIDI Express XT #12 Port 6", ",", "MIDI Express XT #12 Port 7", ",", "MIDI Express XT #12 Port 8", ",", "MIDI Express XT #12 Sync Port", ",", "Maschine Controller Virtual Input", ",", "Traktor Kontrol F1 - 1 Input", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1160,7 +1384,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.595187,
 					"id" : "obj-19",
-					"items" : [ "AU DLS Synth 1", ",", "USB Midi        ", ",", "USB MIDI Dark Energy  ", ",", "Maschine Controller MIDI output port 0", ",", "Audio 8 DJ MIDI output port 0", ",", "Traktor Kontrol X1 - 1 MIDI output port 0", ",", "Bass Station II", ",", "TC Near TC Near Port 1", ",", "MIDI Express XT #8 Port 1", ",", "MIDI Express XT #8 Port 2", ",", "MIDI Express XT #8 Port 3", ",", "MIDI Express XT #8 Port 4", ",", "MIDI Express XT #8 Port 5", ",", "MIDI Express XT #8 Port 6", ",", "MIDI Express XT #8 Port 7", ",", "MIDI Express XT #8 Port 8", ",", "MIDI Express XT #8 All Cables", ",", "Maschine Controller MIDI output port 0", ",", "Traktor Kontrol X1 - 1 MIDI output port 0", ",", "Maschine Controller Virtual Output", ",", "Traktor Kontrol F1 - 1 Output", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "USB Midi        ", ",", "USB MIDI Dark Energy  ", ",", "Maschine Controller MIDI output port 0", ",", "Traktor Kontrol X1 - 1 MIDI output port 0", ",", "Bass Station II", ",", "MiniBrute", ",", "MiniBrute MIDI Interface", ",", "Moog Minitaur", ",", "Ableton Push Live Port", ",", "Ableton Push User Port", ",", "MIDI Express XT #12 Port 1", ",", "MIDI Express XT #12 Port 2", ",", "MIDI Express XT #12 Port 3", ",", "MIDI Express XT #12 Port 4", ",", "MIDI Express XT #12 Port 5", ",", "MIDI Express XT #12 Port 6", ",", "MIDI Express XT #12 Port 7", ",", "MIDI Express XT #12 Port 8", ",", "MIDI Express XT #12 All Cables", ",", "Maschine Controller Virtual Output", ",", "Traktor Kontrol F1 - 1 Output", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1204,6 +1428,33 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-106", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-108", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-163", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-117", 0 ]
 				}
 
 			}
@@ -1300,6 +1551,33 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-227", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-196", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-196", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-228", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1309,10 +1587,37 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-234", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-228", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-234", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-238", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-234", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-242", 0 ]
 				}
 
 			}
@@ -1388,12 +1693,17 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "midiinfo.mxo",
-				"type" : "iLaX"
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-163", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-98", 0 ]
+				}
+
 			}
- ]
+ ],
+		"dependency_cache" : [  ]
 	}
 
 }
