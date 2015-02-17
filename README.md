@@ -4,7 +4,7 @@ BassStationIIMaxForLive
 A Max For Live patch to control and observe parameters on the Novation Bass Station 2
 
 Max for Live UI by Joe Mattiello
-Embedded original Bass Station 2 Max patch by Justin Foster 
+Embedded original Bass Station 2 Max patch by Justin Foster
 http://cycling74.com/project/bass-station-ii-patch-editor/
 
 ![alt tag](https://raw.githubusercontent.com/JoeMatt/BassStationIIMaxForLive/master/Media/BS2Screenshot.png)
@@ -34,6 +34,13 @@ http://cycling74.com/project/bass-station-ii-patch-editor/
 * Radomize parameter lock
 
 # Log
+
+V 1.3
+Added
+1. Support for new SYSEX format
+
+Removed
+1. Mac binaries - too large for github. Use standalone router .mxf file with free Max Runtime instead
 
 V 1.2
 Added
